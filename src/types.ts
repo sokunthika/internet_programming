@@ -8,6 +8,7 @@ export interface CampusEvent {
   location: string;
   capacity: number;
   booked: number;   // seats already taken
+<<<<<<< HEAD
   description: string;
 }
 
@@ -27,3 +28,6 @@ export type BookingInput = Pick<Booking, "name" | "email" | "seats">;
 
 // Field name -> error message, only for fields that have an error
 export type FormErrors<T> = Partial<Record<keyof T, string>>;
+=======
+}
+>>>>>>> origin/main

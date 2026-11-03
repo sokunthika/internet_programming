@@ -3,6 +3,7 @@
   "compilerOptions": {
     "strict": true,
     "noEmit": true,
+<<<<<<< HEAD
     "types": [
       "vite/client"
     ],
@@ -16,3 +17,9 @@
     "db.json"
   ]
 }
+=======
+    "types": ["vite/client"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.vue", "tests/**/*.ts", "vite.config.ts"]
+}
+>>>>>>> origin/main
